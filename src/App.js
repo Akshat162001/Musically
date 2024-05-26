@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import "./App.css";
-
 function App() {
   const [tracks, setTracks] = useState([]);
   const [keywords, setKeyword] = useState("");
